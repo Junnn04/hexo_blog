@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
-keywords:
-author: John Doe
-language: en
+title: JUN_Blog
+subtitle: '專案的小天地'
+description: '分享自己作品、筆記的小天地'
+keywords: 前端,專案,筆記
+author: JUN
+language: zh-TW
 timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://junnn04.github.io/hexo_blog
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -60,7 +60,7 @@ prismjs:
 # per_page: Posts displayed per page. (0 = disable pagination)
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
-  path: ''
+  path: '/blog'
   per_page: 10
   order_by: -date
 
@@ -101,4 +101,7 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repo: https://github.com/Junnn04/hexo_blog
+  # example, https://github.com/hexojs/hexojs.github.io
+  branch: gh-pages
